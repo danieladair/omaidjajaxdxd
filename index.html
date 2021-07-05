@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Omaid</title>
+</head>
+<body>
+
+  <input type="text" placeholder="Tu nombre" id="name">
+  <button onclick="obtenerNombre()" class="boton">Siguiente</button>
+
+  <div class="slider">
+    <img src="Screenshot_12.png">
+
+    <img src="Screenshot_17.png">
+
+    <img src="Screenshot_8.png">
+  </div>
+
+
+<script type="text/javascript">
+function obtenerNombre() {
+  var frase = document.getElementById('name').value;
+
+  alert('Hola ' + frase + ' eres una persona muy especial para mi<3 y tqmmm');
+
+  var frase2 = prompt("Me quieres tambien jdsajkda? :>");
+
+  alert('Con que tu respuesta fue que ' + frase2 + ', si quieres puedes enviarme captura jdksajdka:>');
+
+  alert('Si llegaste hasta aqui, nos sabes cuanto tquiero<3 sos lo mejor');
+}
+
+
+
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider').bxSlider();
+  });
+</script>
+
+
+</body>
+</html>
